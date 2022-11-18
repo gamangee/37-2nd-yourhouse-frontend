@@ -1,47 +1,38 @@
-## 너네집(YourHouse) 프로젝트 Front-end/Back-end 소개
+![yourhouse_bar](https://user-images.githubusercontent.com/84329979/202771505-581e6d09-b074-4b64-b6c3-368f5717a526.jpg)
 
-- 라이프스타일 커뮤니티 및 커머스 사이트 [오늘의 집](https://ohou.se/) 클론 프로젝트
-- 짧은 프로젝트 기간동안 개발에 집중해야 하므로 커뮤니티 기능에 초점을 맞추어 개발하였습니다.
-- 개발은 초기 세팅부터 전부 직접 구현했으며, 아래 데모 영상에서 보이는 부분은 모두 백앤드와 연결하여 실제 사용할 수 있는 서비스 수준으로 개발한 것입니다.
-
-### 개발 인원 및 기간
-
-- 개발기간 : 2022/10/3 ~ 2022/10/13
-- 개발 인원 : 프론트엔드 4명, 백엔드 3명
-- [프론트 github 링크](https://github.com/wecode-bootcamp-korea/37-2nd-yourhouse-frontend)
-
-### 프로젝트 선정이유
-
-- 심화된 SNS 기능을 구현해보고자 함.
-
-### 데모 영상
-
-- [유튜브 링크](https://youtu.be/hbioq0JMqZc)
+## [👉 YourHouse 바로가기](http://yourhome.s3-website.ap-northeast-2.amazonaws.com/) 
+### 프로젝트 소개
+라이프 스타일 커뮤니티의 대표적인 사이트는 오늘의집이다. 오늘의집 사이트를 모티브로 상품 태그, 해시태그, 댓글, 좋아요, 팔로우, 소셔로그인 모든 기능이 있는 **심화된 SNS 사이트를 구축**해 보았다.
 
 <br>
 
-## 적용 기술 및 구현 기능
+### 📌 선정 이유
+**사용자가 클릭한 위치에 상품을 태그**하고 이미지와 함께 글을 올릴 수 있는 기능을 개발해보고 싶어서 선택하게 되었다.
+<br><br>
+### 개발 인원 및 기간
+`기간` : 2022/10/3 ~2022/10/14 <br>
+`인원` : 프론트엔드 4명, 백엔드 3명
+<br><br>
+### 구현 기능
+![yourhouse_mine](https://user-images.githubusercontent.com/84329979/202771445-8ee50891-cadc-49bc-8407-6e14f945b522.gif)
+
+- 4가지 옵션, 사진, 설명, 키워드 입력 후 컨텐츠 업로드
+- 사진 위치 좌표를 기반으로 한 상품 태그 기능
+
+<br>
 
 ### 적용 기술
-
-> - Front-End : React.js, styled-components
-> - Back-End : Node.js, express, My SQL, JWT, multer, AWS(EC2,RDS)
-> - Common : KAKAO social login, RESTful API
-
-### 구현 기능
-
-- 필터 & 검색 기능
-  - 콘텐츠 리스트 필터 구현
-  - 연관 검색어, 콘텐츠 검색 구현
-- 컨텐츠 업로드 & 디테일 페이지
-  - 좌표 값 포함한 콘텐츠 업로드
-  - 댓글, 좋아요, 팔로우 구현
-- 사용자
-  - 카카오 소셜 로그인
+<div>
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/styled-components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+</div>
 
 <br>
 
-_아래 Reference 부분은 README.md에 꼭 포함되어야 하는 내용입니다_
+### 회고
+#### 
+[👉 기술블로그 바로가기](https://velog.io/@gamangee/%EB%84%88%EB%84%A4%EC%A7%91-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B5%9C%EC%A2%85-%ED%9A%8C%EA%B3%A0)
+
+<br>
 
 ## Reference
 
