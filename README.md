@@ -43,8 +43,8 @@
 <br/>
 
 3. 상품 태그 등록 시 상품 검색
-- 사용자가 상품 태그를 등록하면 해당 상품과 관련된 검색 결과를 불러옵니다. 이를 위해 handleProductId 함수가 사용됩니다.
-- 사용자가 상품 태그를 클릭하면 handleProductId 함수가 실행되고, 해당 상품의 정보와 검색 결과가 uploadInfo 객체의 marker와 productInfo에 저장됩니다.
+- 사용자가 상품 태그를 등록하면 해당 상품과 관련된 검색 결과를 불러옵니다. 이를 위해 `handleProductId` 함수가 사용됩니다.
+- 사용자가 상품 태그를 클릭하면 `handleProductId` 함수가 실행되고, 해당 상품의 정보와 검색 결과가 `uploadInfo` 객체의 marker와 `productInfo`에 저장됩니다.
 - 검색된 상품 정보는 모달창에 리스트 형태로 표시되고, 사용자는 원하는 상품을 선택할 수 있습니다.
 
 <br/>
